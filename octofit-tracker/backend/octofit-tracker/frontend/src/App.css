@@ -1,0 +1,98 @@
+body {
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  min-height: 100vh;
+  color: #22223b;
+}
+
+.navbar {
+  margin-bottom: 2rem;
+  background: linear-gradient(90deg, #3a86ff 0%, #8338ec 100%) !important;
+  box-shadow: 0 2px 8px rgba(58,134,255,0.08);
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+  color: #fff !important;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.navbar-brand img {
+  height: 36px;
+  margin-right: 12px;
+  vertical-align: middle;
+}
+
+.container {
+  max-width: 900px;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #3a86ff;
+  letter-spacing: 1px;
+}
+
+.table {
+  background: #f7faff;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 8px rgba(58,134,255,0.04);
+  margin-bottom: 2rem;
+  color: #22223b;
+}
+
+.table thead {
+  background: linear-gradient(90deg, #3a86ff 0%, #8338ec 100%);
+  color: #fff;
+}
+
+.card {
+  margin-bottom: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 8px rgba(131,56,236,0.08);
+  background: #fff;
+}
+
+.btn-primary {
+  background: linear-gradient(90deg, #3a86ff 0%, #8338ec 100%);
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  margin-right: 0.5rem;
+  box-shadow: 0 2px 8px rgba(58,134,255,0.08);
+}
+
+.btn-primary:hover, .btn-primary:focus {
+  background: linear-gradient(90deg, #8338ec 0%, #3a86ff 100%);
+  color: #fff;
+}
+
+.btn-secondary {
+  background: #ffbe0b;
+  color: #22223b;
+  font-weight: 600;
+  margin-right: 0.5rem;
+}
+
+.App-link, a {
+  color: #3a86ff;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+
+.App-link:hover, a:hover {
+  color: #8338ec;
+}
+
+.modal-content {
+  border-radius: 0.5rem;
+}
+
+.form-label {
+  font-weight: 500;
+}
+
+.form-control, .form-select {
+  border-radius: 0.3rem;
+}
